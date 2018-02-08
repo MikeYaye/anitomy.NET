@@ -1,0 +1,3 @@
+[submodule "AnitomyNET_Wrapper/anitomy"]
+	path = AnitomyNET_Wrapper/anitomy
+	url = https://github.com/erengy/anitomy
