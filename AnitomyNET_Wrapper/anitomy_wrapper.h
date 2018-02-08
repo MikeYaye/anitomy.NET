@@ -1,7 +1,7 @@
 #pragma once
 
 #include <string>
-#include "anitomy/anitomy.h"
+#include "anitomy/anitomy/anitomy.h"
 #include "atlsafe.h"
 
 std::string convert_to_string(anitomy::string_t input_str);
