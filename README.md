@@ -42,7 +42,7 @@ var result = Anitomy.Parse("[Ouroboros]_Fullmetal_Alchemist_BrotherhoodBOX_-_01.
 **AnimeTitle** *_Fullmetal_Alchemist_Brotherhood*  
 **EpisodeNumber** *01*  
 **FileExtension** *mkv*  
-**FileName** *[Ouroboros]_Fullmetal_Alchemist_Brotherhood_-_01*  
+**FileName** *[Ouroboros]_Fullmetal_Alchemist_Brotherhood_-_01.mkv*  
 **ReleaseGroup** NULL  
 
 As you can see, "BOX" is ignored, ReleaseGroup is not parsed  and `_` will not be used as a delimiter.
