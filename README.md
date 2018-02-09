@@ -1,5 +1,5 @@
 # Anitomy.NET
-.NET wrapper for [Anitomy](https://github.com/erengy/anitomy), a C++ library for parsing anime video filenames.
+.NET wrapper for [Anitomy](https://github.com/erengy/anitomy), a library for parsing anime video filenames.
 
 # Installation
 Via [Nuget](https://www.nuget.org/packages/Anitomy.NET):
