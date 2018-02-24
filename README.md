@@ -4,10 +4,10 @@
 # Installation
 Via [Nuget](https://www.nuget.org/packages/Anitomy.NET):
 ```
- Install-Package Anitomy.NET 
+Install-Package Anitomy.NET 
 ```
 
-# Example
+# C# Example
 After putting `using AnitomyNET;` at the top of your code, you can parse a filename with the following code:
 ``` C#
 var result = Anitomy.Parse("[TaigaSubs]_Toradora!_(2008)_-_01v2_-_Tiger_and_Dragon_[1280x720_H.264_FLAC][1234ABCD].mkv");
