@@ -1,4 +1,7 @@
-﻿namespace AnitomyNET
+﻿/* This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. See the LICENCE file for more info.*/
+
+namespace AnitomyNET
 {
     public class AnimeFile
     {

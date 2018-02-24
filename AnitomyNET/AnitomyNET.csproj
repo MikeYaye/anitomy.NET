@@ -8,4 +8,8 @@
     <StartupObject />
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\AnitomyNET.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

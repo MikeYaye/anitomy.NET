@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/* This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. See the LICENCE file for more info.*/
 
 namespace AnitomyNET
 {

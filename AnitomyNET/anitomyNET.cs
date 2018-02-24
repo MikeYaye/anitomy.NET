@@ -1,4 +1,7 @@
-﻿using System.Runtime.InteropServices;
+﻿/* This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. See the LICENCE file for more info.*/
+
+using System.Runtime.InteropServices;
 
 namespace AnitomyNET
 {
@@ -10,11 +13,8 @@ namespace AnitomyNET
         private static extern string[] parse_anime_file_name(string fileName, string[] ignoredStrings, int ignoredStringsLength, string allowedDelimiters, bool parseEpisodeNumber, bool parseEpisodeTitle, bool parseFileExtension, bool parseReleaseGroup);
 
         /// <summary>
-        /// Parses the file into a AnimeFile object
+        /// Parses anime file name into an AnimeFile object
         /// </summary>
-        /// <param name="fileName"></param>
-        /// <param name="options"></param>
-        /// <returns></returns>
         public static AnimeFile Parse(string fileName, AnitomyOptions options = null)
         {
             if (options == null)
