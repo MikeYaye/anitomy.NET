@@ -1,11 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFramework>netstandard1.1</TargetFramework>
     <ApplicationIcon />
     <Win32Resource />
     <OutputType>Library</OutputType>
     <StartupObject />
+    <Version>1.0.4</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>MikeYaye</Authors>
+    <Company />
+    <Product>AnitomyNET</Product>
+    <Description>.NET wrapper for Anitomy, a library for parsing anime video filenames.</Description>
+    <PackageTags>Anitomy Anime</PackageTags>
+    <PackageProjectUrl>https://github.com/MikeYaye/anitomy.NET</PackageProjectUrl>
+    <PackageReleaseNotes>Downgraded library to .NET standard 1.1 so it's compatiable with older .NET framework versions.</PackageReleaseNotes>
+    <PackageId>Anitomy.NET</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
