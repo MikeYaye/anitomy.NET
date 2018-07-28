@@ -8,7 +8,7 @@ Install-Package Anitomy.NET
 ```
 
 ## Compatibility
-Because this library uses .NET standard 1.1 you can use it on a wide variety of platforms. See [this list](https://github.com/dotnet/standard/blob/master/docs/versions/netstandard1.1.md#platform-support) for the minimum platform versions.
+Because this library uses [.NET Standard](https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/) 1.1, you can use it on a wide variety of platforms. See [this list](https://github.com/dotnet/standard/blob/master/docs/versions/netstandard1.1.md#platform-support) for the minimum platform versions.
 
 # C# Example
 After putting `using AnitomyNET;` at the top of your code, you can parse a filename with the following code:
