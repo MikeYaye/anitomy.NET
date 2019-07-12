@@ -10,7 +10,7 @@ When done making changes to the wrapper, build the AnitomyNET_Wrapper project in
 - right mouse click -> `Add Build Folder`
 - Place the 2 wrapper files and the `Anitomy.NET.props` (you can find them in the `netstandard1.*` folder) in the build folder.
 It should look like this:
-![Package contents screenshot](https://raw.githubusercontent.com/MikeYaye/anitomy.NET/CorrectPackageContentNuGet.png)
+![Package contents screenshot](https://raw.githubusercontent.com/MikeYaye/anitomy.NET/master/CorrectPackageContentNuGet.png)
 
 You should test it in a seperate project, install the NuGET package from the file with `Install-Package SomePackage -Source "path/to/nupkg-file"` in the Package Manager Console.  
 After that, the package file is ready to upload to NuGET.
