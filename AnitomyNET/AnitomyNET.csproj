@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="14.0">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.1</TargetFramework>
@@ -6,20 +6,41 @@
     <Win32Resource />
     <OutputType>Library</OutputType>
     <StartupObject />
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>MikeYaye</Authors>
     <Company />
-    <Product>AnitomyNET</Product>
+    <Product>Anitomy.NET</Product>
     <Description>.NET wrapper for Anitomy, a library for parsing anime video filenames.</Description>
     <PackageTags>Anitomy Anime</PackageTags>
     <PackageProjectUrl>https://github.com/MikeYaye/anitomy.NET</PackageProjectUrl>
-    <PackageReleaseNotes>Downgraded library to .NET standard 1.1 so it's compatiable with older .NET framework versions.</PackageReleaseNotes>
+    <PackageReleaseNotes>Made compatible with x64 platforms.</PackageReleaseNotes>
     <PackageId>Anitomy.NET</PackageId>
+    <AssemblyVersion>1.0.5.0</AssemblyVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard1.4\AnitomyNET.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard1.1\AnitomyNET.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\Release\AnitomyNET_Wrapper_86.dll" Link="AnitomyNET_Wrapper_86.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\x64\Release\AnitomyNET_Wrapper_64.dll" Link="AnitomyNET_Wrapper_64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Anitomy.NET.props">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Anitomy.NET.targets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  
 </Project>
