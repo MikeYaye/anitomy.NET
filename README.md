@@ -1,3 +1,7 @@
+# Deprecated, **TLDR:** Use [AnitomySharp](https://github.com/tabratton/AnitomySharp) instead.  
+**Longer explanation and a little lesson about wrappers versus ports:**  While this library still works fine on windows, it doesn't work well on other platforms, because it's a wrapper and uses compiled Windows C++ code. It is possible to make DLL's for each linux system and architecture, but that would be a lot of work for such a small library. I should have ported the C++ or Java code like the author of Anitomysharp did, it is just not worth it to make a wrapper for such a small code base and it would have been eassier to make a port (and would run on all platforms because it doesn't use DLLimports and uses .NET Core or .NET Standard framework).
+Thanks to tabratton for making AnitomySharp!
+
 # Anitomy.NET
 .NET wrapper for [Anitomy](https://github.com/erengy/anitomy), a library for parsing anime video filenames.
 
